@@ -1,0 +1,16 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomadcoders/wetube-reloaded.git"
+  },
+  "author": "Nicolas Serrano<nico@nomadcoders.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomadcoders/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/nomadcoders/wetube-reloaded#readme"
+}
