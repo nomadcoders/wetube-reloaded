@@ -9,7 +9,7 @@
   "scripts": {
     "win": "node index.js"
   },
-  "author": "Nicolas Serrano<nico@nomadcoders.co>",
+  "author": "Nicolas Serrano <nico@nomadcoders.co>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nomadcoders/wetube-reloaded/issues"
