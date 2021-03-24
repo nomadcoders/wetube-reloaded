@@ -9,6 +9,7 @@ const logger = morgan("dev");
 const home = (req, res) => {
   return res.send("hello");
 };
+
 const login = (req, res) => {
   return res.send("login");
 };
