@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/nomadcoders/wetube-reloaded#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.12.3",
     "morgan": "^1.10.0",
