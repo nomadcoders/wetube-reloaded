@@ -1,7 +1,9 @@
 extends base
 
 block content
-    form(method="POST")
+    form(method="POST", enctype="multipart/form-data")
+        label(for="avatar") Avatar
+        input(type="file", id="avatar", name="avatar", accept="image/*")
         input(placeholder="Name", name="name", type="text", required, value=loggedInUser.name)
         input(placeholder="Email", name="email", type="email", required, value=loggedInUser.email)
         input(placeholder="Username", name="username", type="text", required, value=loggedInUser.username)
