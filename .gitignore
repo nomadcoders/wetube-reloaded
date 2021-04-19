@@ -2,3 +2,4 @@
 .env
 /uploads
 .DS_Store
+/assets

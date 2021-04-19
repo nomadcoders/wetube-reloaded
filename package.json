@@ -7,8 +7,8 @@
     "url": "git+https://github.com/nomadcoders/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/init.js",
-    "assets": "webpack --config webpack.config.js"
+    "dev:server": "nodemon",
+    "dev:assets": "webpack"
   },
   "author": "Nicolas Serrano <nico@nomadcoders.co>",
   "license": "MIT",
