@@ -1,6 +1,22 @@
-@import "./_variables";
+// Config
+@import "./config/_variables.scss";
+@import "./config/_reset.scss";
+
+// Components
+
+@import "./components/header.scss";
+
+// Screens
+
+// Defaults
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 body {
-  background-color: $red;
-  color: $color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: $bg;
+  color: white;
 }

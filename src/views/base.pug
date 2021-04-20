@@ -2,33 +2,11 @@ doctype html
 html(lang="ko")
     head
         title #{pageTitle} | #{siteName}
-        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
         link(rel="stylesheet", href="/static/css/styles.css")
     body
-        header
-            h1=pageTitle
-            nav
-                ul
-                    li
-                        a(href="/") Home
-                    if loggedIn
-                        li
-                            a(href="/videos/upload") Upload Video
-                        li
-                            a(href=`/users/${loggedInUser._id}`) My Profile
-                        li
-                            a(href="/users/edit") Edit Profile
-                        li
-                            a(href="/users/logout")  Log Out
-                    else
-                        li
-                            a(href="/join")  Join
-                        li
-                            a(href="/login")  Login                        
-                    li
-                        a(href="/search") Search
-                    
+        include partials/header                
         main
             block content
-    include partials/footer
+        include partials/footer
     script(src="/static/js/main.js") 
