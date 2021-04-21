@@ -2,6 +2,11 @@ extends base
 
 block content
     video(src="/" + video.fileUrl, controls)
+    div
+        button#play Play
+        button#mute Mute
+        span#time 00:00/00:00
+        input(type="range",step="0.1", min="0", max="1")#volume
     //-
         div
             p=video.description
