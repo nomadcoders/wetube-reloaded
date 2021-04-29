@@ -8,9 +8,11 @@
   },
   "scripts": {
     "start": "node build/init.js",
+    "build": "npm run build:server && npm run build:assets",
     "build:server": "babel src -d build",
+    "build:assets": "webpack --mode=production",
     "dev:server": "nodemon",
-    "dev:assets": "webpack"
+    "dev:assets": "webpack --mode=development -w"
   },
   "author": "Nicolas Serrano <nico@nomadcoders.co>",
   "license": "MIT",
